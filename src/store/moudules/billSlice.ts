@@ -20,7 +20,7 @@ export const billSlice = createSlice({
             state.billList = action.payload;
             },
     },
-  })
+})
   
 // 导出actions，所以我们在业务组件中可以 导出然后 dispatch 
 export const { setBillList } = billSlice.actions
